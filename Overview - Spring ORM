@@ -1,0 +1,21 @@
+Overview Of Spring ORM - Hibernate
+
+1) DataSource ds
+	  url
+	  user
+	  password
+
+2) SessionFactory factory - will require datasource, hibernate properties and annotated classes
+	  i)ds
+	  ii)hibernate props
+		    dialect
+		    hbm2ddl
+		    showsql
+		    formatsql
+	  iii)annotated class
+3) HibernateTemplate temp - will require factory object
+	  factory
+4) Transaction Manager - will require factory objcet
+	  factory
+5) DaoClasses - will require HibernateTemplate object
+	  temp
