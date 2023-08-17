@@ -12,10 +12,13 @@ Overview Of Spring ORM - Hibernate
 		    hbm2ddl
 		    showsql
 		    formatsql
-	  iii)annotated class
-3) HibernateTemplate temp - will require factory object
+	  iii)annotated classes (in list format)
+
+3) HibernateTemplate temp - will require factory bean
 	  factory
-4) Transaction Manager - will require factory objcet
+
+4) Transaction Manager - will require factory bean
 	  factory
-5) DaoClasses - will require HibernateTemplate object
+
+5) DaoClasses - will require HibernateTemplate bean
 	  temp
